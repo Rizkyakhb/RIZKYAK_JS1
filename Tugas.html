@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rizkyyyyyyy</title>
+</head>
+<body>
+    <h1>simple example</h1>
+
+    <script>
+        // if, else, nested if
+        var nilai = 85;
+        if (nilai >= 90) {
+            document.write("Nilai Anda A");
+        } else if (nilai >= 80) {
+            document.write("Nilai Anda B");
+        } else {
+            document.write("Nilai Anda C");
+        }
+
+        document.write("<br>");
+
+        // switch case
+        var hari = "Senin";
+        switch (hari) {
+            case "Senin":
+                document.write("Hari ini adalah Senin");
+                break;
+            case "Selasa":
+                document.write("Hari ini adalah Selasa");
+                break;
+            case "Rabu":
+                document.write("Hari ini adalah Rabu");
+                break;
+            default:
+                document.write("Hari ini adalah hari lain");
+        }
+
+        document.write("<br>");
+
+        // for statement
+        for (var i = 1; i <= 5; i++) {
+            document.write("Iterasi ke-" + i + "<br>");
+        }
+
+        document.write("<br>");
+
+        // while
+        var angka = 1;
+        while (angka <= 5) {
+            document.write("Angka: " + angka + "<br>");
+            angka++;
+        }
+
+        document.write("<br>");
+
+        // do while
+        var x = 1;
+        do {
+            document.write("Nilai x: " + x + "<br>");
+            x++;
+        } while (x <= 5);
+
+        document.write("<br>");
+
+        // function
+        function tambah(a, b) {
+            return a + b;
+        }
+
+        var hasil = tambah(3, 4);
+        document.write("Hasil penjumlahan: " + hasil);
+    </script>
+</body>
+</html>
